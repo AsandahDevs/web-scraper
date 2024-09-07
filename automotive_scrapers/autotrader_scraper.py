@@ -2,7 +2,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-TODO: search_vw_gtis_that_have_mileage_less_than_100000_km # type: ignore
+# TODO: search_vw_gtis_that_have_mileage_less_than_100000_km # type: ignore
 
 class AutoTrader(webdriver.Chrome):
     def open_autotrader_site(self):
