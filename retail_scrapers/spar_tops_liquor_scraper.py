@@ -9,7 +9,7 @@ class Spar(webdriver.Chrome):
     def open_spar_liquor_site(self):
         '''
         opens spar liquor site and views specials
-        available at toti durban branch
+        around Durban
         '''
         BROWSER_CLICK_EVENT = 'arguments[0].click();'
 
