@@ -1,5 +1,5 @@
 # This file execustes our main python program
-from automotive_scrapers.autotrader_scraper import AutoTrader
+from retail_scrapers.spar_tops_liquor_scraper import Spar
 
-auto_trader_site = AutoTrader()
-auto_trader_site.open_autotrader_site()
+spar = Spar()
+spar.open_spar_liquor_site()
